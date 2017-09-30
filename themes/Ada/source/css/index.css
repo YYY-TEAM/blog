@@ -1,8 +1,18 @@
 /*@import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css); */
 
 html{
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
     font-size:20px;
 }
+
+*,::after,::before {
+    box-sizing: inherit
+}
+
 *{
     margin:0;
     padding:0;

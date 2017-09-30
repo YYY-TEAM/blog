@@ -7,7 +7,8 @@
   },
   "scripts": {
     "generate": "..\\node_modules\\.bin\\hexo generate",
-    "deploy": "..\\node_modules\\.bin\\hexo deploy"
+    "deploy": "..\\node_modules\\.bin\\hexo deploy",
+    "server": "..\\node_modules\\.bin\\hexo server"
   },
   "dependencies": {
     "hexo": "^3.2.0",
