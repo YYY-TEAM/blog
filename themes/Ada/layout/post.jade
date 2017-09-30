@@ -17,6 +17,6 @@ html
 				br
 			-str = markdown(page.content)
 			section#articleDiv!= str
-		script(src='#{config.root}js/jquery.min.js')
-		script(src='#{config.root}js/highlight.min.js')
-		script(src='#{config.root}js/start.js')
+		script(src='#{config.virtual_path}/js/jquery.min.js')
+		script(src='#{config.virtual_path}/js/highlight.min.js')
+		script(src='#{config.virtual_path}/js/start.js')

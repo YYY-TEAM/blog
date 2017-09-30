@@ -17,6 +17,8 @@ root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+virtual_path: /blog
+
 # Directory
 source_dir: source
 public_dir: public
