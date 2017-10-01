@@ -6,9 +6,9 @@
     "version": "3.3.9"
   },
   "scripts": {
-    "generate": "..\\node_modules\\.bin\\hexo generate",
-    "deploy": "..\\node_modules\\.bin\\hexo deploy",
-    "server": "..\\node_modules\\.bin\\hexo server"
+    "generate": "node_modules\\.bin\\hexo generate",
+    "deploy": "node_modules\\.bin\\hexo deploy",
+    "server": "node_modules\\.bin\\hexo server"
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -20,7 +20,7 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-jade": "^0.4.1",
     "hexo-renderer-marked": "^0.3.0",
-    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.0"
   }
 }

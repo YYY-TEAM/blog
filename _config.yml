@@ -17,8 +17,6 @@ root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-virtual_path: /blog
-
 # Directory
 source_dir: source
 public_dir: public
@@ -74,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Ada
+theme: melody
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
